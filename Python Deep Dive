@@ -1,0 +1,19 @@
+1. Assigning elements to different lists
+list1=[1,2,3,4,5]
+list2=[5,6,7,8,9]
+list1.append("8") #adds an element to the end of the list
+list2.insert(3,"6") #adds the element 6 to the 3rd position
+list2.extend(("8","6")) #adds multiple elements to the end of the list
+
+2. Accessing elements from a tuple
+tup=('apple','orange','banana')
+print(tup[0]) #prints the first element of the tuple
+for i in tup:
+    print(i) #all the elements of the tuple would be printed
+
+3. Deleting different dictionary elements
+dict={"A":20,"B":30,"C":40}
+del dict['A'] #deletes the first key:value pair i.e., A:20
+print(dict)
+dict.pop("A") #does the same job as del
+
